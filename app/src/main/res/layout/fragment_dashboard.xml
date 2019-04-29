@@ -5,6 +5,185 @@
     android:layout_height="match_parent"
     tools:context=".DashboardFragment">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textAlignment="center">
 
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="24dp"
+            android:text="لطفا مشخصات دو نفر از نزدیکان خود را وارد نمایید"
+            android:textAlignment="center"
+            android:textColor="@color/SailorDarkTeal"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="فرد 1"
+            android:textAlignment="textStart" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextLName1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="نام خانوادگی"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="208dp"
+                tools:layout_editor_absoluteY="65dp" />
+
+            <EditText
+                android:id="@+id/editTextFName1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="نام "
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="65dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextRel1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="نسبت"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="208dp"
+                tools:layout_editor_absoluteY="65dp" />
+
+            <EditText
+                android:id="@+id/editTextMobile1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="شماره موبایل"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="65dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:text="فرد 2"
+            android:textAlignment="textStart" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextLName2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="نام خانوادگی"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="208dp"
+                tools:layout_editor_absoluteY="65dp" />
+
+            <EditText
+                android:id="@+id/editTextFName2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="نام "
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="65dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextRel2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="نسبت"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="208dp"
+                tools:layout_editor_absoluteY="65dp" />
+
+            <EditText
+                android:id="@+id/editTextMobile2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="شماره موبایل"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="65dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/SailorDarkTeal"
+            android:text="ثبت"
+            android:textColor="@color/WhiteCrest"
+            android:textSize="20sp" />
+
+    </LinearLayout>
 
 </FrameLayout>
