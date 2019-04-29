@@ -130,13 +130,18 @@
           <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1370">
               <caret line="97" column="13" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="13" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="android-dummy://C:/Users/hayya/AndroidStudioProjects/Haelth/app/Translations Editor">
+          <provider selected="true" editor-type-id="string-resource-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -588,6 +593,7 @@
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49924356" weight="0.20645161" />
       <window_info anchor="bottom" id="Find" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Android Profiler" order="9" weight="0.32903227" />
+      <window_info anchor="right" id="StringPreview" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" sideWeight="0.4967742" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="2" />
